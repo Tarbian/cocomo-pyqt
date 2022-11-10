@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Employability (Person-Month):</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_27">
+        <property name="text">
+         <string>Duration of the project: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>SIZE:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="size">
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>1000000007</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="3">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox">
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Very Low 6.20</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Low 4.96</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nominal 3.72</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>High 2.48</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Very High 1.24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extra High 0.00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <spacer name="verticalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Development
+Flexibility:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Architecture /
+Risk Resolution: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>Process Maturity:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>Team Cohesion:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Precedentedness:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Very Low 7.07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Low 5.65</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nominal 4.24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>High 2.83</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Very High 1.41</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extra High 0.00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Very Low 5.07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Low 4.05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nominal 3.04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>High 2.03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Very High 1.01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extra High 0.00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Very Low 5.48</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Low 4.38</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nominal 3.29</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>High 2.19</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Very High 1.10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extra High 0.00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="comboBox_5">
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Very Low 7.80</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Low 6.24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nominal 4.68</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>High 3.12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Very High 1.56</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Extra High 0.00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <spacer name="verticalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" rowspan="2" colspan="4">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>255</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1053</width>
+        <height>303</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>Early Design</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>6</y>
+          <width>1051</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>10</number>
+         </property>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_51">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>RCPX (Product Reliability and Complexity)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_52">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>PDIF (Platform Difficulty)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QComboBox" name="comboBox_38">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Low 0.87</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.29</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.81</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 2.61</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QComboBox" name="comboBox_37">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>3</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Extra Low 0.49</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very Low 0.60</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 0.83</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.33</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.91</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 2.72</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="comboBox_39">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Low 0.95</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.07</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.15</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 1.24</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_53">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>RUSE (Developed for Reusability)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_54">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>PERS (Personnel Capability)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_40">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::WheelFocus</enum>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="currentIndex">
+            <number>3</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Extra Low 2.12</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very Low 1.62</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.26</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.83</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.63</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 0.50</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_55">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>PREX (Personnel Experience)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="comboBox_43">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.43</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.14</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.00</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QComboBox" name="comboBox_50">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>3</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Extra Low 1.43</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very Low 1.30</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.10</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.87</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.73</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 0.62</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_59">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>FCIL (Facilities)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QComboBox" name="comboBox_51">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>3</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Extra Low 1.59</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very Low 1.33</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.22</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.87</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.74</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 0.62</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_64">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>SCED (Required Development Schedule) </string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QPushButton" name="calc_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Calculate!</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <attribute name="title">
+        <string>Post Architecture</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1051</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>10</number>
+         </property>
+         <item row="0" column="4">
+          <widget class="QLabel" name="label_69">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>CPLX – 
+Складність продукту </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QComboBox" name="comboBox_55">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low  0.73</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 0.87</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.17</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.34</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 1.74</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QComboBox" name="comboBox_56">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.42</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.29</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.85</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.71</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_71">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>RUSE – 
+Required Reusability час </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="comboBox_57">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Low 0.87</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.07</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.15</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_70">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>ACAP (ASAP) –
+ Аналітичні здібності</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_72">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>RELY – 
+Необхідна надійність ПЗ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_73">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>STOR – 
+Обмеження пам’яті</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_58">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::WheelFocus</enum>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 0.84</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 0.92</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.10</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.26</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_82">
+           <property name="text">
+            <string>PCON - 
+Personnel Continuity</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="comboBox_61">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.11</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.29</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 1.63</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QComboBox" name="comboBox_59">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low  1.19</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.09</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.91</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.85</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_74">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>DATA – 
+Розмір БД додатку</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="5">
+          <widget class="QComboBox" name="comboBox_62">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Low 0.87</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.15</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.30</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QComboBox" name="comboBox_64">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.17</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.09</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.90</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.78</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLabel" name="label_76">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>LEXP (LTEX) – 
+Досвід розробки на мовах програмування</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="5">
+          <widget class="QComboBox" name="comboBox_63">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.43</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.14</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.00</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLabel" name="label_75">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TOOL – 
+Використання інструментарію розробки ПО</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <widget class="QComboBox" name="comboBox_65">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.05</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.17</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Extra High 1.46</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="4">
+          <widget class="QLabel" name="label_78">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>SCED – 
+Вимоги дотримання графіка розробки</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLabel" name="label_77">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>AEXP – 
+Досвід розробки</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="5">
+          <widget class="QComboBox" name="comboBox_68">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.22</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.10</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.88</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.81</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QComboBox" name="comboBox_67">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low  1.20</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.09</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.91</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.84</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <widget class="QLabel" name="label_81">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>VIRT (PVOL) –
+ Нестійкість оточення віртуальної машини</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_83">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>TIME –
+ Обмеження швидкодії</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="label_80">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>VEXP (PEXP) – 
+Досвід використання віртуальних машин</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QComboBox" name="comboBox_70">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Low 0.23</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.14</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.28</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="comboBox_66">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.34</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.15</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.88</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 0.76</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_79">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>PCAP (PERS) – 
+Здібності до розробки ПЗ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="comboBox_72">
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.29</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.12</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 0.90</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>very high 0.81</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_86">
+           <property name="text">
+            <string>SITE – 
+Multisite Development</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="comboBox_71">
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 1.22</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 1.14</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.00</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLabel" name="label_85">
+           <property name="text">
+            <string>DOCU – 
+Documentation Match to Life - Cycle Needs
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <widget class="QComboBox" name="comboBox_69">
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Very Low 0.81</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Low 0.91</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Nominal 1.00</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>High 1.11</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Very High 1.23</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="5" column="5">
+          <widget class="QPushButton" name="calc">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Calculate!</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>comboBox_40</tabstop>
+  <tabstop>comboBox_51</tabstop>
+  <tabstop>comboBox_37</tabstop>
+  <tabstop>comboBox_38</tabstop>
+  <tabstop>comboBox_39</tabstop>
+  <tabstop>size</tabstop>
+  <tabstop>comboBox_43</tabstop>
+  <tabstop>comboBox_50</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
